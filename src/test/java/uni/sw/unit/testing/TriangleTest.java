@@ -21,7 +21,6 @@ public class TriangleTest {
 
     @Test
     public void testIsosceles(){
-        
         Triangle triangle = new Triangle(3,3,5);
         assertTrue(triangle.isIsosceles());
 
