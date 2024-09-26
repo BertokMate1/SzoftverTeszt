@@ -10,19 +10,31 @@ public class TriangleTest {
     @Test
     public void testGenericTriangle(){
 
-        Triangle triangle = new Triangle (3,4,6);
+        Triangle triangle = new Triangle(3,4,6);
 
         assertTrue(triangle instanceof Triangle);
         assertFalse(triangle.isIsosceles());
-        //assertFalse(triangle.isEquilateral());
+        assertFalse(triangle.isEquilateral());
         //assertFalse(triangle.isRightAngeled());
 
     }
 
     @Test
     public void testIsosceles(){
+
         Triangle triangle = new Triangle(3,3,5);
         assertTrue(triangle.isIsosceles());
 
     }
+
+    @Test
+    public void testEquiliteralTrinagle(){
+
+        Triangle triangle = new Triangle(8, 8, 8);
+
+        assertTrue(triangle.isIsosceles());
+        assertTrue(triangle.isEquilateral());
+
+    }
+
 }
