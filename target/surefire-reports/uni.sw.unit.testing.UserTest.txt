@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: uni.sw.unit.testing.UserTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.642 s -- in uni.sw.unit.testing.UserTest
+uni.sw.unit.testing.UserTest.loginTest -- Time elapsed: 0.274 s
+uni.sw.unit.testing.UserTest.throwTest -- Time elapsed: 0.018 s
+uni.sw.unit.testing.UserTest.idTest -- Time elapsed: 0.007 s
+uni.sw.unit.testing.UserTest.anyTest -- Time elapsed: 0.018 s
+uni.sw.unit.testing.UserTest.updateTest -- Time elapsed: 0.008 s
+uni.sw.unit.testing.UserTest.timesTest -- Time elapsed: 0.006 s
+uni.sw.unit.testing.UserTest.passwordTest -- Time elapsed: 0.004 s
+uni.sw.unit.testing.UserTest.userNameTest -- Time elapsed: 0.004 s
+uni.sw.unit.testing.UserTest.defaultConstTest -- Time elapsed: 0.006 s
